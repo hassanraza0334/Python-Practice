@@ -1,4 +1,5 @@
-# Write a Program to input 2 Number & print their Sum
-first=int(input("Enter First Number:"))
-second=int(input("Enter Second Number:"))
-print("sum=",first+second)
+# Write a Program to input 2 Floating Points Number & Print Their Average
+
+a=float(input("Enter First = "))
+b=float(input("Enter Second ="))
+print("Average=",(a+b)/2)
