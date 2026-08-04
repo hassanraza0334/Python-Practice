@@ -1,11 +1,12 @@
-# Conditional Statement if & elif 
+marks = int(input("Enter student's Marks: "))
 
-light="pink"
-if(light=="red"):
-    print("stop")
-elif(light=="green"):
-    print("Go")
-elif(light=="Yellow"):
-    print("Look")
+if marks >= 90:
+    grade = "A"
+elif marks >= 80:
+    grade = "B"
+elif marks >= 70:
+    grade = "C"
 else:
-    print("Light is Broken")
+    grade = "D"
+
+print("Grade is:", grade)
