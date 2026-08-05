@@ -1,14 +1,13 @@
-# Grade Students based on Marks, Grade A B C ,D
+# Program to find the Greater of 3 Number enter by the User
 
-marks = int(input("Enter student's Marks: "))
 
-if marks >= 90:
-    grade = "A"
-elif marks >= 80:
-    grade = "B"
-elif marks >= 70:
-    grade = "C"
+a=int(input("Enter First Number :"))
+b=int(input("Enter Second Number :"))
+c=int(input("Enter Third Number :"))
+if(a>=b and a>=b):
+    print("First Number is Greater than :",a)
+elif(b>=c):
+    print("Second Number is Greater than :",b)
 else:
-    grade = "D"
-
-print("Grade is:", grade)
+    print("Third number is greater than :",c)
+    
