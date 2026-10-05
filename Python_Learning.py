@@ -8,10 +8,9 @@ student={
      "Subjects":["English","Math","Computer","Urdu"],
      "Age":25,
      "Marks":[78,89,88,99,],
-     "CNIC":"Adults"
+     "CNIC":"Adults",
+     "CGPA":3.2,
 
          }
 
-
-student["Name"]="Asad Raza"
-print(student)
+print(student.keys())
