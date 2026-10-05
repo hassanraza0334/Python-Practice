@@ -1,7 +1,5 @@
-# Dictionary
-# Dictionary---> Muteable --> Changeable 
-# Tuple--->immuteable ha--->Not Changeable.
-# List--->muteable ha--->Changeable.
+# Dictionary Methods
+# 1)  myDict.Keys()---> Returns all Keys 
 
 student={
     "Name":"Hassan Raza",
@@ -13,4 +11,4 @@ student={
 
          }
 
-print(student.keys())
+print(student.values())
