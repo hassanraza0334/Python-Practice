@@ -1,5 +1,5 @@
 # Dictionary Methods
-# 1)  myDict.Keys()---> Returns all Keys 
+# 1)  myDict.items()---> Returns all (Key,Value) pairs Tuple
 
 student={
     "Name":"Hassan Raza",
@@ -11,4 +11,4 @@ student={
 
          }
 
-print(student.values())
+print(student.items())
