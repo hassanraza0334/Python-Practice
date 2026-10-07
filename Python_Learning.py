@@ -10,5 +10,5 @@ student={
      "CGPA":3.2,
 
          }
-
-print(student.items())
+print(student["Name"])
+print(student.get("Name"))
