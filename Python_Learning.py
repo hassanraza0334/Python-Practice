@@ -1,5 +1,5 @@
 # Dictionary Methods
-# 1)  myDict.items()---> Returns all (Key,Value) pairs Tuple
+# 1)  myDict.update()---> inserts the specified items to the dictionary
 
 student={
     "Name":"Hassan Raza",
@@ -10,5 +10,5 @@ student={
      "CGPA":3.2,
 
          }
-print(student["Name"])
-print(student.get("Name"))
+student.update({"City":"Pattoki"})
+print(student)
