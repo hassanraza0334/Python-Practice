@@ -1,11 +1,12 @@
 # Dictionary
-# Q.1  Store Following Word Meanings in a Python Dictionary.
-#  Table:"A Piece of Furniture ","List of Fact & Figure"
-#  Cat: "A Small Animal"
+# Q.2  You are Given a list of Subjects for Students . Assume one classroom is required for 1 Subject,
+# How many classroom are needed by all Students.
+# "Python","Java","C++","Python","JavaScript"
+# "Java","Python","C++","C"
 
-Dictionary={
-   "Cat":"A Small Animal",
-    "Table":["A Piece of Furniture","List of Fact & Figure"]
+Subjects={
+    "Python","Java","C++","Python","JavaScript"
+    "Java","Python","C++","C"
+
 }
-
-print(Dictionary)
+print(Subjects)
