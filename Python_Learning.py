@@ -1,14 +1,11 @@
-# Dictionary Methods
-# 1)  myDict.update()---> inserts the specified items to the dictionary
+# Dictionary
+# Q.1  Store Following Word Meanings in a Python Dictionary.
+#  Table:"A Piece of Furniture ","List of Fact & Figure"
+#  Cat: "A Small Animal"
 
-student={
-    "Name":"Hassan Raza",
-     "Subjects":["English","Math","Computer","Urdu"],
-     "Age":25,
-     "Marks":[78,89,88,99,],
-     "CNIC":"Adults",
-     "CGPA":3.2,
+Dictionary={
+   "Cat":"A Small Animal",
+    "Table":["A Piece of Furniture","List of Fact & Figure"]
+}
 
-         }
-student.update({"City":"Pattoki"})
-print(student)
+print(Dictionary)
