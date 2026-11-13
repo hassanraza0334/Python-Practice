@@ -1,6 +1,6 @@
 # Loops
-
+# Print Number 1 to 100.
 i=1
-while i<=10:
-    print("Hello Word",i)
+while i<=100:
+    print(i)
     i+=1
