@@ -1,6 +1,7 @@
 # Loops
-# Print Number 100 to 1..While loop.
-i=100
-while i>=1:
-    print(i)
-    i-=1
+# Print the Multiplication Table for a Number N..While loop.
+n=int(input("Enter Number :"))
+i=1
+while i<=10:
+    print(n*i)
+    i+=1
