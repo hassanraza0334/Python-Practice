@@ -1,7 +1,7 @@
 # Loops
-# Print the Multiplication Table for a Number N..While loop.
-n=int(input("Enter Number :"))
-i=1
-while i<=10:
-    print(n*i)
-    i+=1
+# Print the Element of Following list using a loop....
+num=[1,4,9,16,25,36,49,64,81,100]
+index=0
+while index< len(num):
+    print(num[index])
+    index+=1
